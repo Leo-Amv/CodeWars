@@ -22,8 +22,8 @@
     }
     public static void Main()
     {
-        double[] signature = { 10, 6, 8 };
-        double[] array = Tribonacci(signature, 2);
-        System.Console.WriteLine(String.Join(",", array));
+        double[] signature = { 0, 1, 1 };
+        double[] array = Tribonacci(signature, 20);
+        Console.WriteLine(String.Join(",", array));
     }
 }
